@@ -4,7 +4,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ShoppingCart, LayoutDashboard } from "lucide-react";
+import { ShoppingCart, LayoutDashboard, BarChart2 } from "lucide-react";
 
 const menuItems = [
   {
@@ -17,6 +17,7 @@ const menuItems = [
     href: "/dashboard",
     icon: LayoutDashboard,
   },
+  { name: "Forecasting", href: "/forecasting", icon: BarChart2 },
 ];
 
 export default function Sidebar() {
